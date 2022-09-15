@@ -24,7 +24,10 @@ function estructurar(cadena){
     var cadenaFinal = ''
     while(cadena.includes('(')){
         var cadenaEnviar = '';
-        cadenaFinal = cadenaFinal + cadena.slice(0,cadena.indexOf('(')) + '+';
+        cadenaFinal = cadenaFinal + cadena.slice(0,cadena.indexOf('('));
+        if(cadenaFinal[cadenaFinal.length-1] !== '-' && cadenaFinal[cadenaFinal.length-1] !== '+'){
+            cadenaFinal = cadenaFinal + '*'
+        }
         if(!cadena.includes(')')){
             cadenaEnviar = cadena.slice(cadena.indexOf('(')+1,cadena.length)
             cadena = ''
@@ -32,6 +35,9 @@ function estructurar(cadena){
             cadenaEnviar = cadena.slice(cadena.indexOf('(')+1,cadena.indexOf(')'))
             cadenaEnviar = cadenaEnviar === '' ? '0' : cadenaEnviar
             cadena = cadena.slice(cadena.indexOf(')')+1,cadena.length)
+            if(cadena.length > 2 && cadena[0] != '-' && cadena[0] != '+'){
+                cadenaFinal = cadenaFinal + '*'
+            }
         }
         var resultado = estructurar(cadenaEnviar)
         cadenaFinal = cadenaFinal + resultado
