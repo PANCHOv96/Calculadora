@@ -18,7 +18,9 @@ la app  no esta pudiendo devolver correctamente el resultado , es problema de co
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/PANCHOv96/ApiClima/blob/main/public/logo192.png)
+![App Screenshot](https://github.com/PANCHOv96/Calculadora/blob/main/src/img/Calculadora.png)
+![App Screenshot](https://github.com/PANCHOv96/Calculadora/blob/main/src/img/Calculadora2.png)
+![App Screenshot](https://github.com/PANCHOv96/Calculadora/blob/main/src/img/Calculadora3.png)
 
 
 ## Instalación 
