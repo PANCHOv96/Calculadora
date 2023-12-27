@@ -100,9 +100,9 @@ function operaracion(cadena,tipo){
 }
   
 // var cadena = '1*2+(3-2)+(2+4)+(59+10+(2-10)-(5+2))';
-// // var cadena2= "2-9+2-1-8*-32+8*32+8/32+8/-32"
-// // var cadena2= "2-9+2-1-8*32+8*32+8/32-8/32"
-// // var cadena2= "-8*-32/10"
-// // var cadena2= "2--9"
-// // var cadena2= "---9.3+0.3"
+// var cadena2= "2-9+2-1-8*-32+8*32+8/32+8/-32"
+// var cadena2= "2-9+2-1-8*32+8*32+8/32-8/32"
+// var cadena2= "-8*-32/10"
+// var cadena2= "2--9"
+// var cadena2= "---9.3+0.3"
 // console.log('RESULTADO',calcular(cadena));
